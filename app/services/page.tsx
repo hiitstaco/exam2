@@ -46,8 +46,8 @@ export default function Page() {
 
         <SubHeading>Decadent Cakes</SubHeading>
         <p>
-          Celebrate life’s special moments with our beautifully crafted cakes.
-          Whether you’re looking for a classic vanilla layer cake, a rich
+          Celebrate lifes special moments with our beautifully crafted cakes.
+          Whether you are looking for a classic vanilla layer cake, a rich
           chocolate ganache, or a tangy lemon drizzle, each cake is designed to
           be as delicious as it is stunning. Custom orders are welcome for
           birthdays, weddings, and other celebrations!
@@ -71,7 +71,7 @@ export default function Page() {
         <SubHeading>Gluten-Free and Vegan Options </SubHeading>
         <p>
           At Aamiras Bakery, we believe everyone should enjoy delicious baked
-          goods. Tat’s why we offer a range of gluten-free and vegan options
+          goods. That is why we offer a range of gluten-free and vegan options
           that are just as satisfying and flavorful as our traditional items.
         </p>
 
