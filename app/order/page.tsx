@@ -53,9 +53,9 @@ export default function Page() {
         </textarea>
         
         <br/>
-        
+        <Link href='/' passHref>
         <button className="btn btn-primary p">Place Order</button>
-
+        </Link>
         <br />
 
         
