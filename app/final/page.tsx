@@ -10,13 +10,13 @@ export default function Page() {
                 
                 <br />
                 
-                <label className="m-2" htmlFor="phone">Phone Number</label>
-                <input type="tel" name="phone" id="phone" className="bg-secondary m-1"/>
+                <label className="m-2" htmlFor="email">Email Address</label>
+                <input type="text" id="email" name="email" className="bg-secondary m-1"/>
                 
                 <br />
 
                 <label className="m-2" htmlFor="description">Order Details</label>
-                <input type="text" name="name" id="name" className="bg-secondary m-1"/>
+                <input type="text" name="description" id="description" className="bg-secondary m-1"/>
               
                 <br />
               
