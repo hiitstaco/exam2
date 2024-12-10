@@ -1,6 +1,6 @@
 const defaults = {
   lightTheme:"retro",
-  darkTheme:"synthwave",
+  darkTheme:"dracula",
   companyName: "Bakery by Aamira"
 }
 
