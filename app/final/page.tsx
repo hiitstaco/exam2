@@ -4,13 +4,22 @@ export default function Page() {
   return (
     <>
       <div className="divider divider-primary"></div>
-        <h1 className="text-4xl p-2 py-1 mb-3 text-center bg-primary">Place Final Order </h1>
+        <h1 className="text-4xl p-2 py-1 mb-3 text-center bg-secondary">Special Order Form</h1>
           <form>
             <label className="m-1" htmlFor="name">Full Name</label>
             <input type="text" name="name" id="name" className="bg-secondary m-1"/><br />
                 
             <label className="m-1" htmlFor="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" className="bg-secondary m-1"/><br />
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" className="bg-secondary m-1"/><br />
+
+            <label className="m-1" htmlFor="email">Email:</label>
+            <input type="email" id="email" name="email" className="bg-secondary"/><br />
+
+            <label className="m-1" htmlFor="theme">Occasion/Theme</label>
+            <input type="text" name="theme" id="theme" className="bg-secondary m-1"/><br />
+
+            <label className="m-1" htmlFor="name">Pick Up Date</label>
+            <input type="date" name="date" id="date" className="bg-secondary m-1"/><br />
 
             <label htmlFor="flavor" className="mx-1">Choose a Flavor:</label>
             <select name="flavor" id="flavor" className="bg-secondary">
@@ -39,6 +48,9 @@ export default function Page() {
 
             <input type="checkbox" id="bakery4" name="bakery4" value="cookie" />
             <label htmlFor="bakery4" className="m-5">Cookie</label><br />
+
+
+           
 
             <label className="m-1" htmlFor="description">Order Details</label>
             <input type="text" name="description" id="description" className="bg-secondary m-1"/><br />
