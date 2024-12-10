@@ -9,7 +9,7 @@ export default function Home() {
 
         <MainHeading>Welcome to Aamiras Bakery</MainHeading>
       
-
+        Date: 12/9/2024
         <p>
           At Aamiras Bakery, we believe that every bite should be a delightful
           experience. Our passion for baking shines through in every loaf,
