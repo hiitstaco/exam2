@@ -15,8 +15,8 @@ const menu = {
   itemChild1URL: '/services/#bakery',
   itemChild2: 'Drinks',
   itemChild2URL: '/services/#drinks',
-  itemButton1: 'Order Here',
-  itemButton1URL: '/order'
+  itemButton1: 'Final Here',
+  itemButton1URL: '/final'
 
 };
 
@@ -98,7 +98,7 @@ export default function Navbar() {
             </ul>
           </div>
           <div className="navbar-end">
-            <Link className="btn btn-primary mr-3 " href={menu.itemButton1URL}>
+            <Link className="btn btn-secondary mr-3 " href={menu.itemButton1URL}>
               {menu.itemButton1}
             </Link>
             <ThemeController />
