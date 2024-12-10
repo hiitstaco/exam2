@@ -14,7 +14,7 @@ export default function Page() {
         <div className="divider divider-primary"></div>
         
         <p>
-          At Aamiras Bakery, we are passionate about creating baked goods that
+          At Bakery by Aamira, we are passionate about creating baked goods that
           bring joy to every occasion. Our menu features a diverse selection of
           treats, each crafted with care and the finest ingredients. Here is a
           taste of what we have to offer:
@@ -70,7 +70,7 @@ export default function Page() {
 
         <SubHeading>Gluten-Free and Vegan Options </SubHeading>
         <p>
-          At Aamiras Bakery, we believe everyone should enjoy delicious baked
+          At Bakery by Aamira, we believe everyone should enjoy delicious baked
           goods. That is why we offer a range of gluten-free and vegan options
           that are just as satisfying and flavorful as our traditional items.
         </p>

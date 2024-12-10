@@ -4,7 +4,7 @@ export default function Footer() {
       <footer className="footer footer-center bg-primary text-primary-content p-10">
   <aside>
     <p className="font-bold">
-      Bakery By Aamira Corp.
+      Bakery by Aamira Corp.
       <br />
       Providing organic and delicious baked goods since 2024
     </p>

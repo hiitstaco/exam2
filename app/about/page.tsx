@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <>
       <main>
-        <MainHeading> All About Bakery By Aamira </MainHeading>
+        <MainHeading> All About Bakery by Aamira </MainHeading>
 
         <p>
           Our story begins with our founder, Aamira, whose love for
