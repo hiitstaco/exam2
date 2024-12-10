@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <>
       <main>
-        <MainHeading> All About Aamiras Bakery </MainHeading>
+        <MainHeading> All About Bakery By Aamira </MainHeading>
 
         <p>
           Our story begins with our founder, Aamira, whose love for
@@ -29,7 +29,7 @@ export default function Page() {
         <p>
           After years of perfecting her craft, Aamira
           decided to turn this passion into a business. She opened
-          Aamiras Bakery with the vision of creating a warm, inviting space where
+          Bakery By Aamira with the vision of creating a warm, inviting space where
           everyone can enjoy freshly baked treats made with love and care. Our
           bakery is not just about the delicious pastries and cakes; its about
           fostering connections and celebrating lifes special moments through

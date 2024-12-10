@@ -1,7 +1,7 @@
 const defaults = {
   lightTheme:"retro",
   darkTheme:"synthwave",
-  companyName: "Aamira's Bakery"
+  companyName: "Bakery By Aamira"
 }
 
 export default defaults
