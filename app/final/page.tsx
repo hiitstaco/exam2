@@ -80,12 +80,15 @@ export default function Page() {
           </table>
         </div>
 
+        <label className="p-3" htmlFor="note">Requests</label>
+        <input type="text" name="note" id="note" className="bg-secondary m-1 w-full"/><br />
+
         <div className="flex justify-center mt-4">
           <button type="submit" className="btn btn-secondary p">Place Order</button>
         </div>
 
         <SubHeading> Rate Our Service! </SubHeading>
-        <div className="rating gap-1 ml-5">
+        <div className="rating gap-3 ml-5">
           <input type="radio" name="rating-3" className="mask mask-heart bg-red-400" defaultChecked />
           <input type="radio" name="rating-3" className="mask mask-heart bg-orange-400" />
           <input type="radio" name="rating-3" className="mask mask-heart bg-yellow-400" />
