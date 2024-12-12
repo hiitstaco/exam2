@@ -26,19 +26,19 @@ export default function Page() {
       <h1 className="text-4xl p-2 py-1 mb-3 text-center bg-secondary">Special Order Form</h1>
       <form>
         <label className="m-1" htmlFor="name">Full Name</label>
-        <input type="text" name="name" id="name" className="bg-secondary m-1"/><br />
+        <input type="text" name="name" id="name" className="bg-secondary m-1" required /><br />
                 
         <label className="m-1" htmlFor="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" className="bg-secondary m-1"/><br />
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000"className="bg-secondary m-1" required /><br />
 
         <label className="m-1" htmlFor="email">Email</label>
-        <input type="email" id="email" name="email" className="bg-secondary"/><br />
+        <input type="email" id="email" name="email" className="bg-secondary" placeholder="email@domain.com" required /><br />
 
         <label className="m-1" htmlFor="theme">Occasion/Theme</label>
-        <input type="text" name="theme" id="theme" className="bg-secondary m-1"/><br />
+        <input type="text" name="theme" id="theme" className="bg-secondary m-1" placeholder="Birthday, Retro, etc." required /><br />
 
         <label className="m-1" htmlFor="date">Pick Up Date</label>
-        <input type="date" name="date" id="date" className="bg-secondary m-1"/><br />
+        <input type="date" name="date" id="date" className="bg-secondary m-1" required /><br />
 
         <div className="mt-4">
           <table className="table-auto w-full border-collapse border border-secondary">
@@ -81,7 +81,7 @@ export default function Page() {
         </div>
 
         <label className="p-3" htmlFor="note">Requests</label>
-        <input type="text" name="note" id="note" className="bg-secondary m-1 w-full"/><br />
+        <input type="text" name="note" id="note" className="bg-secondary m-1 w-full" placeholder="Special Instructions, Allergies, Dietary Ristrictions etc. "/><br />
 
         <div className="flex justify-center mt-4">
           <button type="submit" className="btn btn-secondary p">Place Order</button>
@@ -89,11 +89,11 @@ export default function Page() {
 
         <SubHeading> Rate Our Service! </SubHeading>
         <div className="rating gap-3 ml-5">
-          <input type="radio" name="rating-3" className="mask mask-heart bg-red-400" defaultChecked />
+          <input type="radio" name="rating-3" className="mask mask-heart bg-red-400" />
           <input type="radio" name="rating-3" className="mask mask-heart bg-orange-400" />
           <input type="radio" name="rating-3" className="mask mask-heart bg-yellow-400" />
           <input type="radio" name="rating-3" className="mask mask-heart bg-lime-400" />
-          <input type="radio" name="rating-3" className="mask mask-heart bg-teal-400" />
+          <input type="radio" name="rating-3" className="mask mask-heart bg-teal-400" defaultChecked />
         </div>
 
         <div className="divider divider-secondary"></div>
