@@ -55,26 +55,26 @@ export default function Page() {
         </Subtitle>
 
         <SubHeading>Mouthwatering Cookies</SubHeading>
-        <p>
+        <Subtitle>
           Our cookie selection is a must-try! From classic chocolate chip and
           oatmeal raisin to unique flavor combinations like salted caramel
           pecan, each cookie is baked to perfection, creating that delightful
           chewy center and crispy edge you love.
-        </p>
+        </Subtitle>
 
         <SubHeading>Seasonal Specials</SubHeading>
-        <p>
+        <Subtitle>
           We love to celebrate the flavors of the season! Be sure to check out
           our rotating selection of seasonal treats, from pumpkin spice muffins
           in the fall to refreshing lemon tarts in the summer.
-        </p>
+        </Subtitle>
 
         <SubHeading>Gluten-Free and Vegan Options </SubHeading>
-        <p>
+        <Subtitle>
           At Bakery by Aamira, we believe everyone should enjoy delicious baked
           goods. That is why we offer a range of gluten-free and vegan options
           that are just as satisfying and flavorful as our traditional items.
-        </p>
+        </Subtitle>
 
         <br/>
 
@@ -85,74 +85,74 @@ export default function Page() {
         <br/>
 
         <SubHeading>Freshly Brewed Coffee</SubHeading>
-        <p>
+        <Subtitle>
           Experience the rich aroma of our artisanal coffee, sourced from the
           finest beans. Each cup is expertly brewed to deliver a bold flavor,
           perfect for pairing with any pastry.
-        </p>
+        </Subtitle>
 
         <SubHeading>Espresso</SubHeading>
-        <p>
+        <Subtitle>
           For those who appreciate intensity, our espresso is a small but mighty
-          shot of pure coffee bliss. Crafted with precision, it’s rich, creamy,
+          shot of pure coffee bliss. Crafted with precision, it is rich, creamy,
           and invigorating.
-        </p>
+        </Subtitle>
 
         <SubHeading>Cappuccino</SubHeading>
-        <p>
+        <Subtitle>
           A delightful balance of espresso, steamed milk, and frothy foam, our
           cappuccino is topped with a dusting of cocoa for an added touch of
           sweetness. A perfect companion to any sweet treat!
-        </p>
+        </Subtitle>
 
         <SubHeading>Herbal Tea Selection</SubHeading>
-        <p>
+        <Subtitle>
           Choose from a variety of fragrant herbal teas, including chamomile,
           peppermint, and hibiscus. Each cup is brewed to perfection, offering a
           soothing and aromatic experience.
-        </p>
+        </Subtitle>
 
         <SubHeading>Iced Latte</SubHeading>
-        <p>
+        <Subtitle>
           Cool down with our refreshing iced latte! Smooth espresso is combined
           with cold milk and ice, making it a perfect drink for a warm day.
           Customize it with flavored syrups for an extra treat!
-        </p>
+        </Subtitle>
 
         <SubHeading>Chai Latte</SubHeading>
-        <p>
+        <Subtitle>
           A spiced blend of black tea and steamed milk, our chai latte is
           infused with aromatic spices like cinnamon and cardamom. Enjoy it hot
           or iced for a flavorful experience.
-        </p>
+        </Subtitle>
 
         <SubHeading>Freshly Squeezed Juices</SubHeading>
-        <p>
+        <Subtitle>
           Quench your thirst with our vibrant selection of freshly squeezed
           juices, including classic orange, zesty lemon, and refreshing apple.
           Packed with vitamins and bursting with flavor!
-        </p>
+        </Subtitle>
 
         <SubHeading>Hot Chocolate</SubHeading>
-        <p>
+        <Subtitle>
           Indulge in our rich, velvety hot chocolate, made with premium cocoa
           and topped with whipped cream. A decadent treat that pairs wonderfully
           with our baked goods!
-        </p>
+        </Subtitle>
 
         <SubHeading>Smoothies</SubHeading>
-        <p>
+        <Subtitle>
           Choose from our fruity smoothies made with fresh ingredients, like
           banana, strawberry, and spinach. Each blend is creamy, delicious, and
           full of nutrients—perfect for a quick boost!
-        </p>
+        </Subtitle>
 
         <SubHeading>Sparkling Water</SubHeading>
-        <p>
+        <Subtitle>
           Refresh yourself with our sparkling water, served chilled with a slice
           of lemon or lime. A simple yet elegant choice to cleanse the palate
           between bites!
-        </p>
+        </Subtitle>
 
         <div className="divider divider-primary"></div>
         
