@@ -23,23 +23,33 @@ export default function Page() {
   return (
     <>
       <div className="divider divider-primary"></div>
-      <h1 className="text-4xl p-2 py-1 mb-3 text-center bg-secondary">Special Order Form</h1>
+      <h1 className="text-4xl p-2 py-1 mb-3 text-center bg-secondary ">Special Order Form</h1>
       <form>
-        <label className="m-1 " htmlFor="name">Full Name</label>
-        <input type="text" name="name" id="name" className="bg-secondary italic m-1" required /><br />
-                
-        <label className="m-1 " htmlFor="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000"className="bg-secondary m-1 italic placeholder-neutral-500" required /><br />
+        <div className="grid grid-cols-3 items-center">
+          <label className="m-1 text-right" htmlFor="name">Full Name</label>
+          <input type="text" name="name" id="name" className="bg-secondary italic m-1" required /><br />
+        </div>
 
-        <label className="m-1 " htmlFor="email">Email</label>
-        <input type="email" id="email" name="email" className="bg-secondary italic placeholder-neutral-500" placeholder="email@domain.com" required /><br />
+        <div className="grid grid-cols-3 items-center">          
+          <label className="m-1 text-right" htmlFor="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000"className="bg-secondary m-1 italic placeholder-neutral-500" required /><br />
+        </div>
 
-        <label className="m-1 " htmlFor="theme">Occasion/Theme</label>
-        <input type="text" name="theme" id="theme" className="bg-secondary italic m-1 placeholder-neutral-500" placeholder="Birthday, Retro, etc." required /><br />
+        <div className="grid grid-cols-3 items-center">
+          <label className="m-1 text-right" htmlFor="email">Email</label>
+          <input type="email" id="email" name="email" className="bg-secondary italic placeholder-neutral-500" placeholder="email@domain.com" required /><br />
+        </div>
 
-        <label className="m-1 " htmlFor="date">Pick Up Date</label>
-        <input type="date" name="date" id="date" className="bg-secondary italic m-1" required /><br />
+        <div className="grid grid-cols-3 items-center">
+          <label className="m-1 text-right" htmlFor="theme">Occasion/Theme</label>
+          <input type="text" name="theme" id="theme" className="bg-secondary italic m-1 placeholder-neutral-500" placeholder="Birthday, Retro, etc." required /><br />
+        </div>
 
+        <div className="grid grid-cols-3 items-center">
+          <label className="m-1 text-right" htmlFor="date">Pick Up Date</label>
+          <input type="date" name="date" id="date" className="bg-secondary italic m-1" required /><br />
+        </div>
+        
         <div className="mt-4">
           <table className="table-auto w-full border-collapse border border-secondary">
             <thead>
