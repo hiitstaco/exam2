@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import SubHeading from '../components/SubHeading';
 import MainHeading from '../components/MainHeading';
+import Subtitle from '../components/Subtitle';
 
 export const metadata: Metadata = {
   title: 'Services',
@@ -29,29 +30,29 @@ export default function Page() {
         <br/>
 
         <SubHeading>Artisan Breads</SubHeading>
-        <p>
+        <Subtitle>
           Start your day with our freshly baked artisan breads. From rustic
           sourdough and hearty whole grain to light and fluffy brioche, our
           breads are made using traditional techniques for the perfect crust and
           flavor. Each loaf is baked daily, ensuring maximum freshness.
-        </p>
+        </Subtitle>
 
         <SubHeading>Flaky Pastries</SubHeading>
-        <p>
+        <Subtitle>
           Indulge in our selection of delicate pastries, perfect for breakfast
           or an afternoon pick-me-up. Try our buttery croissants, flaky pain au
           chocolat, or seasonal fruit danishes, all made with layers of love and
           skill.
-        </p>
+        </Subtitle>
 
         <SubHeading>Decadent Cakes</SubHeading>
-        <p>
+        <Subtitle>
           Celebrate lifes special moments with our beautifully crafted cakes.
           Whether you are looking for a classic vanilla layer cake, a rich
           chocolate ganache, or a tangy lemon drizzle, each cake is designed to
           be as delicious as it is stunning. Custom orders are welcome for
           birthdays, weddings, and other celebrations!
-        </p>
+        </Subtitle>
 
         <SubHeading>Mouthwatering Cookies</SubHeading>
         <p>
